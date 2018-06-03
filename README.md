@@ -1,5 +1,5 @@
 # vue2-blog
-> 一个 Material Design 风格的响应式博客 Demo
+> 一个 Material Design 风格的响应式博客 Demo ，mock 模拟数据，无后端实现
 
 ## Demo
 [演示地址](https://barrychen.cn:5000)

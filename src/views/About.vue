@@ -1,8 +1,11 @@
 <template>
-  <mu-paper class="my-paper" :zDepth="1">
-    <mu-card-title title="关于我" />             
-    <mu-card-text v-html="content" class="my-card-text my-profile" /> 
-  </mu-paper>  
+  <div>
+    <mu-paper class="my-paper" :zDepth="1">
+      <mu-card-title title="关于我" />             
+      <mu-card-text v-html="content" class="my-card-text my-profile" /> 
+    </mu-paper>
+    <mu-back-top />
+  </div>
 </template>
 
 <script>

@@ -6,12 +6,12 @@ import router from './router'
 import MuseUI from 'muse-ui'
 import 'muse-ui/dist/muse-ui.css'
 import 'muse-ui/dist/theme-teal.css'
-import "./assets/styles.less"
+import './assets/styles.less'
 import store from './store'
 import ArticleCard from './components/ArticleCard'
 import DynamicCard from './components/DynamicCard'
 import CommentList from './components/CommentList'
-import CommentField from "./components/CommentField"
+import CommentField from './components/CommentField'
 
 //生产环境不引入mock模拟数据
 process.env.NODE_ENV === 'production' || require('./axios/mock')

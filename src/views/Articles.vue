@@ -4,6 +4,7 @@
       :key="index"
       :article="item"
       @click.native="go(item)" />
+    <mu-back-top />
     <mu-infinite-scroll :scroller="scroller" :loading="loading" :loadingText="loadingText" @load="LoadMore" />            
   </div>
 </template>

@@ -3,6 +3,7 @@
     <app-dynamic-card v-for="(item, index) in dynamicList" 
       :key="index"
       :dynamic="item" />
+    <mu-back-top />
     <mu-infinite-scroll :scroller="scroller" :loading="loading" :loadingText="loadingText" @load="loadMore" />
   </div>
 </template>
